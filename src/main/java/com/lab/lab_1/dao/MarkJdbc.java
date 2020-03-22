@@ -1,6 +1,6 @@
-package com.bgps.labs.daos;
+package com.lab.lab_1.dao;
 
-import com.bgps.labs.models.Mark;
+import com.lab.lab_1.model.Mark;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 

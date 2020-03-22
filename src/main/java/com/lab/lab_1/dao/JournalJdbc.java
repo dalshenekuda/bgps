@@ -1,14 +1,15 @@
-package com.bgps.labs.daos;
+package com.lab.lab_1.dao;
 
-import com.bgps.labs.models.JournalEntry;
-import org.jetbrains.annotations.NotNull;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-import org.springframework.stereotype.Repository;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.List;
+        import com.lab.lab_1.model.JournalEntry;
+        import org.jetbrains.annotations.NotNull;
+        import org.springframework.jdbc.core.JdbcTemplate;
+        import org.springframework.jdbc.core.RowMapper;
+        import org.springframework.stereotype.Repository;
+
+        import java.sql.ResultSet;
+        import java.sql.SQLException;
+        import java.util.List;
 
 @Repository
 public class JournalJdbc {

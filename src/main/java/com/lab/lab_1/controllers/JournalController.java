@@ -1,7 +1,8 @@
-package com.bgps.labs.controllers;
+package com.lab.lab_1.controllers;
 
-import com.bgps.labs.daos.JournalJdbc;
-import com.bgps.labs.models.JournalEntry;
+
+import com.lab.lab_1.dao.JournalJdbc;
+import com.lab.lab_1.model.JournalEntry;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

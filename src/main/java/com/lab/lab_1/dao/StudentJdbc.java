@@ -1,6 +1,7 @@
-package com.bgps.labs.daos;
+package com.lab.lab_1.dao;
 
-import com.bgps.labs.models.Student;
+
+import com.lab.lab_1.model.Student;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

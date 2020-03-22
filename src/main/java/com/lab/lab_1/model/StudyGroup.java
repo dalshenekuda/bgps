@@ -1,14 +1,12 @@
-package com.bgps.labs.models;
+package com.lab.lab_1.model;
 
-public class Mark {
+public class StudyGroup {
     private int id;
     private String name;
-    private String value;
 
-    public Mark(int id, String name, String value) {
+    public StudyGroup(int id, String name) {
         this.id = id;
         this.name = name;
-        this.value = value;
     }
 
     public int getId() {
@@ -25,13 +23,5 @@ public class Mark {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
     }
 }

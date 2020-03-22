@@ -1,4 +1,4 @@
-package com.bgps.labs.models;
+package com.lab.lab_1.model;
 
 public class Student {
     private int id;

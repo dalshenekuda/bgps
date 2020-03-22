@@ -1,7 +1,8 @@
-package com.bgps.labs.controllers;
+package com.lab.lab_1.controllers;
 
-import com.bgps.labs.daos.StudentJdbc;
-import com.bgps.labs.models.Student;
+
+import com.lab.lab_1.dao.StudentJdbc;
+import com.lab.lab_1.model.Student;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,6 +24,7 @@ public class StudentController {
     public List<Student> getAllStudents(){
         return _std.getAll();
     }
+
 
     @GetMapping("/students/byGroupId/{id}")
     public List<Student> getByGroupId(@PathVariable int id){
